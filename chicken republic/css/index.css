@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: gothambookregular, gothammedium, Lato;
+}
+
+.navbar {
+    background: red;
+}
+
+ul a,
+ul a:hover {
+    color: white
+}
+
+ul {
+    background: gold
+}
+
+li:hover {
+    background: rgb(230, 177, 45)
+}
+
+.fa-bars {
+    color: white;
+    background: gold;
+    padding: 3px
+}
+
+header {
+    margin-top: 20%;
+    background: url(../image/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 300px;
+    opacity: 1.5;
+}
+
+.order-now {
+    padding: 0.5em;
+    background: red;
+}
+
+.row1::after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+[class*="col-"] {
+    float: left
+}
+
+.scrolling-wrapper {
+    overflow-x: auto;
+}
+
+.img {
+    background-color: #fff;
+    border: none;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.2s ease-in-out !important;
+    border-radius: 30px;
+    margin-left: 0.3em;
+    margin-right: 0.5em;
+    margin-top: 0.7em
+}
+
+.img:hover {
+    transform: translateY(-5px);
+    box-shadow: none;
+    background: yellow
+}
+
+main {
+    padding: 1em 2.5em
+}
+
+.main-content-sub {
+    padding-left: 0.3em;
+    background: red;
+    margin-top: 1em;
+    color: white
+}
+
+.main-content-sub a {
+    color: yellow;
+    text-decoration: none;
+}
+
+section {
+    padding: 3em;
+    background: goldenrod
+}
+
+.people-content {
+    padding: 3em;
+    background: red
+}
+
+header h6 {
+    padding: 4em 10em 1em 1em;
+    color: white
+}
+
+.icon-links a {
+    color: white
+}
+
+.order-now h6 {
+    background: yellow;
+    width: fit-content;
+    padding: 0.3em 1.5em;
+    border-radius: 0.2em;
+    margin: auto;
+}
+
+h6 a,
+h6 a:hover {
+    color: red;
+    font-family: arial black;
+    text-decoration: none
+}
+
+.order-now h6:hover {
+    background: white
+}
+
+main h4 {
+    color: red;
+    font-family: bernard mt condensed
+}
+
+small {
+    color: #f89f32;
+    font-size: 1em
+}
+
+.main-content h2 {
+    color: rgb(151, 6, 6)
+}
+
+.main-content h2 span {
+    color: red
+}
+
+section p {
+    background: red;
+    color: white;
+    margin-top: 19px;
+    padding: 0.3em 0;
+    text-align: center;
+}
+
+section p:hover {
+    background: white;
+    color: red;
+    border: 1px solid red;
+    transition: 0.3s;
+}
+
+.people-content a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.content-storefront {
+    padding: 3em;
+    background: white;
+    color: rgb(173, 28, 28);
+    font-family: arial;
+    font-weight: 500;
+}
+
+.content-storefront a {
+    background: red;
+    border-bottom: 5px solid goldenrod;
+    color: white;
+    padding: 0.3em;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.content-storefront a:hover {
+    background: goldenrod;
+    border-bottom: 5px solid red;
+    transition: 0.5s;
+}
+
+footer {
+    padding: 0.2em 2em;
+    background: red;
+    margin-bottom: 0;
+    color: white
+}
+
+footer p {
+    font-size: 0.7rem
+}
